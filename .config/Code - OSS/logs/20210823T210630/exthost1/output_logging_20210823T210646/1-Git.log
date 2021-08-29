@@ -1,0 +1,629 @@
+Looking for git in: git
+Using git 2.33.0 from git
+> git rev-parse --git-dir
+Open repository: /home/maharajamihir/Projects/BoozeUp-API
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app/main.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/main.py
+> git cat-file -s dc25bd08840c21c519ec4e982127278b4eb5cf8f
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/maharajamihir/Projects/BoozeUp-API/app/main.py
+> git show --textconv :fetch_data.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/fetch_data.py
+> git cat-file -s 1eaae208cd02c30a8036bbf7ae497433e59b580c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app/main.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/main.py
+> git cat-file -s dc25bd08840c21c519ec4e982127278b4eb5cf8f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :fetch_data.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/fetch_data.py
+> git cat-file -s 1eaae208cd02c30a8036bbf7ae497433e59b580c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/maharajamihir/Projects/BoozeUp-API/fetch_data.py
+> git show --textconv :app/fetch_data.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/fetch_data.py
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app/main.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/main.py
+> git cat-file -s dc25bd08840c21c519ec4e982127278b4eb5cf8f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app/fetch_data.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/fetch_data.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :fetch_data.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/fetch_data.py
+> git cat-file -s 1eaae208cd02c30a8036bbf7ae497433e59b580c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app/main.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/main.py
+> git cat-file -s dc25bd08840c21c519ec4e982127278b4eb5cf8f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :fetch_data.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/fetch_data.py
+> git cat-file -s 1eaae208cd02c30a8036bbf7ae497433e59b580c
+> git show --textconv :app/main.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/main.py
+> git cat-file -s dc25bd08840c21c519ec4e982127278b4eb5cf8f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :fetch_data.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/fetch_data.py
+> git cat-file -s 1eaae208cd02c30a8036bbf7ae497433e59b580c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/maharajamihir/Projects/BoozeUp-API/fetch_data.py
+> git show --textconv :Procfile
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/Procfile
+> git cat-file -s fc272ab9983257fdf0d496cda6b3b9962aa4c59e
+> git show --textconv :fetch_data.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/fetch_data.py
+> git cat-file -s 1eaae208cd02c30a8036bbf7ae497433e59b580c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app/main.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/main.py
+> git cat-file -s dc25bd08840c21c519ec4e982127278b4eb5cf8f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :fetch_data.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/fetch_data.py
+> git cat-file -s 1eaae208cd02c30a8036bbf7ae497433e59b580c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app/main.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/main.py
+> git cat-file -s dc25bd08840c21c519ec4e982127278b4eb5cf8f
+> git show --textconv :fetch_data.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/fetch_data.py
+> git cat-file -s 1eaae208cd02c30a8036bbf7ae497433e59b580c
+> git show --textconv :app/main.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/main.py
+> git cat-file -s dc25bd08840c21c519ec4e982127278b4eb5cf8f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :fetch_data.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/fetch_data.py
+> git cat-file -s 1eaae208cd02c30a8036bbf7ae497433e59b580c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app/main.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/main.py
+> git cat-file -s dc25bd08840c21c519ec4e982127278b4eb5cf8f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/maharajamihir/Projects/BoozeUp-API/app/main.py
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app/templates/browse.html
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/templates/browse.html
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app/main.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/main.py
+> git cat-file -s dc25bd08840c21c519ec4e982127278b4eb5cf8f
+> git show --textconv :app/templates/browse.html
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/templates/browse.html
+> git show --textconv :app/main.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/main.py
+> git cat-file -s dc25bd08840c21c519ec4e982127278b4eb5cf8f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :fetch_data.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/fetch_data.py
+> git cat-file -s 1eaae208cd02c30a8036bbf7ae497433e59b580c
+> git show --textconv :app/main.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/main.py
+> git cat-file -s dc25bd08840c21c519ec4e982127278b4eb5cf8f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app/templates/app.html
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/templates/app.html
+> git cat-file -s 50b5a8cd4cbc975a9d884f9dce903250e080aa5b
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :fetch_data.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/fetch_data.py
+> git cat-file -s 1eaae208cd02c30a8036bbf7ae497433e59b580c
+> git show --textconv :app/templates/app.html
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/templates/app.html
+> git cat-file -s 50b5a8cd4cbc975a9d884f9dce903250e080aa5b
+> git show --textconv :fetch_data.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/fetch_data.py
+> git cat-file -s 1eaae208cd02c30a8036bbf7ae497433e59b580c
+> git show --textconv :app/templates/app.html
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/templates/app.html
+> git cat-file -s 50b5a8cd4cbc975a9d884f9dce903250e080aa5b
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app/main.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/main.py
+> git cat-file -s dc25bd08840c21c519ec4e982127278b4eb5cf8f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app/templates/browse.html
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/templates/browse.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app/templates/app.html
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/templates/app.html
+> git cat-file -s 50b5a8cd4cbc975a9d884f9dce903250e080aa5b
+> git show --textconv :app/templates/browse.html
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/templates/browse.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app/templates/make-offer.html
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/templates/make-offer.html
+> git cat-file -s 082f730ffb4a3ecde47e132af5de748e3f4f61c1
+> git show --textconv :app/templates/browse.html
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/templates/browse.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app/templates/make-offer.html
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/templates/make-offer.html
+> git cat-file -s 082f730ffb4a3ecde47e132af5de748e3f4f61c1
+> git show --textconv :app/templates/browse.html
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/templates/browse.html
+> git show --textconv :app/templates/make-offer.html
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/templates/make-offer.html
+> git cat-file -s 082f730ffb4a3ecde47e132af5de748e3f4f61c1
+> git show --textconv :app/main.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/main.py
+> git cat-file -s dc25bd08840c21c519ec4e982127278b4eb5cf8f
+> git show --textconv :app/templates/browse.html
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/templates/browse.html
+> git show --textconv :app/templates/app.html
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/templates/app.html
+> git cat-file -s 50b5a8cd4cbc975a9d884f9dce903250e080aa5b
+> git show --textconv :app/main.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/main.py
+> git cat-file -s dc25bd08840c21c519ec4e982127278b4eb5cf8f
+> git show --textconv :app/templates/make-offer.html
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/templates/make-offer.html
+> git cat-file -s 082f730ffb4a3ecde47e132af5de748e3f4f61c1
+> git show --textconv :app/templates/browse.html
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/templates/browse.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app/templates/make-offer.html
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/templates/make-offer.html
+> git cat-file -s 082f730ffb4a3ecde47e132af5de748e3f4f61c1
+> git show --textconv :app/templates/browse.html
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/templates/browse.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app/main.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/main.py
+> git cat-file -s dc25bd08840c21c519ec4e982127278b4eb5cf8f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app/templates/browse.html
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/templates/browse.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app/main.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/main.py
+> git cat-file -s dc25bd08840c21c519ec4e982127278b4eb5cf8f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app/templates/browse.html
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/templates/browse.html
+> git show --textconv :app/templates/make-offer.html
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/templates/make-offer.html
+> git cat-file -s 082f730ffb4a3ecde47e132af5de748e3f4f61c1
+> git show --textconv :app/templates/browse.html
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/templates/browse.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app/main.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/main.py
+> git cat-file -s dc25bd08840c21c519ec4e982127278b4eb5cf8f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app/templates/browse.html
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/templates/browse.html
+> git show --textconv :DatabaseScripts.md
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/DatabaseScripts.md
+> git cat-file -s b8bc03fb2d350f9c582364e53d240a8adbdb8021
+> git show --textconv :app/templates/browse.html
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/templates/browse.html
+> git show --textconv :fetch_data.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/fetch_data.py
+> git cat-file -s 1eaae208cd02c30a8036bbf7ae497433e59b580c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app/main.py
+> git ls-files --stage -- /home/maharajamihir/Projects/BoozeUp-API/app/main.py
+> git cat-file -s dc25bd08840c21c519ec4e982127278b4eb5cf8f

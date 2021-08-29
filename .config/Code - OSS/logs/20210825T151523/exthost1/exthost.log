@@ -1,0 +1,28 @@
+[2021-08-25 15:15:35.550] [exthost] [info] extension host started
+[2021-08-25 15:15:35.550] [exthost] [error] Error: EEXIST: file already exists, open '/home/maharajamihir/.config/Code - OSS/User/workspaceStorage/81aba9c4b70526c6396650fc3f8e9c21/vscode.lock'
+[2021-08-25 15:15:35.550] [exthost] [info] Lock '/home/maharajamihir/.config/Code - OSS/User/workspaceStorage/81aba9c4b70526c6396650fc3f8e9c21/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2021-08-25 15:15:35.550] [exthost] [info] Lock '/home/maharajamihir/.config/Code - OSS/User/workspaceStorage/81aba9c4b70526c6396650fc3f8e9c21/vscode.lock': The pid 985 appears to be gone.
+[2021-08-25 15:15:35.550] [exthost] [info] Lock '/home/maharajamihir/.config/Code - OSS/User/workspaceStorage/81aba9c4b70526c6396650fc3f8e9c21/vscode.lock': Deleting a stale lock.
+[2021-08-25 15:15:35.550] [exthost] [info] Lock '/home/maharajamihir/.config/Code - OSS/User/workspaceStorage/81aba9c4b70526c6396650fc3f8e9c21/vscode.lock': Lock acquired.
+[2021-08-25 15:15:35.550] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-08-25 15:15:35.550] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2021-08-25 15:15:35.550] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-08-25 15:15:35.550] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
+[2021-08-25 15:15:35.648] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-08-25 15:15:35.648] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/ms-vscode.js-debug/src/extension.js
+[2021-08-25 15:15:36.595] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-08-25 15:15:36.595] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/github/dist/extension.js
+[2021-08-25 15:15:36.693] [exthost] [info] eager extensions activated
+[2021-08-25 15:15:36.768] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-08-25 15:15:36.768] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/emmet/dist/node/emmetNodeMain
+[2021-08-25 15:15:37.039] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-08-25 15:15:37.039] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/merge-conflict/dist/mergeConflictMain
+[2021-08-25 15:15:37.190] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-08-25 15:15:37.190] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/testing-editor-contributions/dist/extension.js
+[2021-08-25 15:37:44.993] [exthost] [error] Error: spawn git ENOENT
+	at Process.ChildProcess._handle.onexit (internal/child_process.js:269:19)
+	at onErrorNT (internal/child_process.js:465:16)
+	at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[2021-08-25 15:38:31.578] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-08-25 15:38:31.579] [exthost] [info] Lock '/home/maharajamihir/.config/Code - OSS/User/workspaceStorage/81aba9c4b70526c6396650fc3f8e9c21/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2021-08-25 15:38:32.590] [exthost] [info] exiting with code 0

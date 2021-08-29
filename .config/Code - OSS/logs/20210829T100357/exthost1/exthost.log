@@ -1,0 +1,27 @@
+[2021-08-29 10:04:16.128] [exthost] [info] extension host started
+[2021-08-29 10:04:16.167] [exthost] [error] Error: EEXIST: file already exists, open '/home/maharajamihir/.config/Code - OSS/User/workspaceStorage/7d8c4c11b8a3034d4121ea5f5b45063e/vscode.lock'
+[2021-08-29 10:04:16.258] [exthost] [info] Lock '/home/maharajamihir/.config/Code - OSS/User/workspaceStorage/7d8c4c11b8a3034d4121ea5f5b45063e/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2021-08-29 10:04:16.260] [exthost] [info] Lock '/home/maharajamihir/.config/Code - OSS/User/workspaceStorage/7d8c4c11b8a3034d4121ea5f5b45063e/vscode.lock': The pid 1769 appears to be gone.
+[2021-08-29 10:04:16.261] [exthost] [info] Lock '/home/maharajamihir/.config/Code - OSS/User/workspaceStorage/7d8c4c11b8a3034d4121ea5f5b45063e/vscode.lock': Deleting a stale lock.
+[2021-08-29 10:04:16.267] [exthost] [info] Lock '/home/maharajamihir/.config/Code - OSS/User/workspaceStorage/7d8c4c11b8a3034d4121ea5f5b45063e/vscode.lock': Lock acquired.
+[2021-08-29 10:04:16.879] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:markdown"}
+[2021-08-29 10:04:16.880] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/extension-editing/dist/extensionEditingMain
+[2021-08-29 10:04:16.918] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features {"startup":false,"extensionId":{"value":"vscode.markdown-language-features","_lower":"vscode.markdown-language-features"},"activationEvent":"onLanguage:markdown"}
+[2021-08-29 10:04:16.918] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/markdown-language-features/dist/extension
+[2021-08-29 10:04:17.065] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-08-29 10:04:17.065] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2021-08-29 10:04:17.091] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-08-29 10:04:17.091] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
+[2021-08-29 10:04:19.915] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-08-29 10:04:19.915] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/ms-vscode.js-debug/src/extension.js
+[2021-08-29 10:04:21.173] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-08-29 10:04:21.173] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/github/dist/extension.js
+[2021-08-29 10:04:21.425] [exthost] [info] eager extensions activated
+[2021-08-29 10:04:21.690] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math {"startup":false,"extensionId":{"value":"vscode.markdown-language-features","_lower":"vscode.markdown-language-features"},"activationEvent":"api"}
+[2021-08-29 10:04:21.691] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/markdown-math/dist/extension
+[2021-08-29 10:04:21.809] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-08-29 10:04:21.810] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/emmet/dist/node/emmetNodeMain
+[2021-08-29 10:04:21.874] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-08-29 10:04:21.875] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/merge-conflict/dist/mergeConflictMain
+[2021-08-29 10:04:21.894] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-08-29 10:04:21.894] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/testing-editor-contributions/dist/extension.js
