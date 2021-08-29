@@ -1,5 +1,3 @@
 # archconfig
-My archconfig. It's not a lot but its honest work.
-
-
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+My archconfig.
+![Honest Work](https://i.kym-cdn.com/entries/icons/original/000/028/021/work.jpg)
