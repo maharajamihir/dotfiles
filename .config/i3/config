@@ -9,7 +9,7 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod1
+set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -37,9 +37,9 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
-# change to german keyboard
-exec "setxkbmap -layout de"
-exec "setxkbmap -option 'grp:alt_shift_toggle'"
+# change to german/english keyboard
+bindsym $mod+x exec "setxkbmap -layout de"
+bindsym $mod+Shift+x exec "setxkbmap -layout us"
 
 # restore wallpaper
 exec "nitrogen --restore"
@@ -48,10 +48,13 @@ exec "nitrogen --restore"
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
+
+# suspend
+bindsym $mod+Shift+Delete exec "systemctl suspend"
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec --no-startup-id dmenu_run
@@ -62,10 +65,10 @@ bindsym $mod+d exec --no-startup-id dmenu_run
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
+bindsym $mod+j focus down 
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+bindsym $mod+h focus left
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -74,10 +77,10 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+bindsym $mod+Shift+h move left
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
@@ -86,7 +89,7 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+h split h
+bindsym $mod+z split h
 
 # split in vertical orientation
 bindsym $mod+v split v
@@ -154,6 +157,8 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 # open firefox
 bindsym $mod+b exec firefox
+# open code
+bindsym $mod+n exec code
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
