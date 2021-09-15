@@ -4,3 +4,44 @@
 [2021-08-29 11:16:05.029] [sharedprocess] [info] [code cache cleanup]: Starting to clean up old code cache folders.
 [2021-08-29 11:16:05.032] [sharedprocess] [info] [storage cleanup]: Starting to clean up storage folders.
 [2021-08-29 11:16:15.030] [sharedprocess] [info] [language pack cache cleanup]: Starting to clean up unused language packs.
+[2021-08-29 22:03:38.402] [sharedprocess] [warning] Resolved variables received without matching request 16
+[2021-08-29 22:03:38.416] [sharedprocess] [warning] Resolved variables received without matching request 17
+[2021-08-29 22:03:38.419] [sharedprocess] [warning] Resolved variables received without matching request 18
+[2021-08-29 22:03:38.473] [sharedprocess] [warning] Resolved variables received without matching request 19
+[2021-08-29 22:03:38.473] [sharedprocess] [warning] Resolved variables received without matching request 20
+[2021-08-31 00:18:27.969] [sharedprocess] [warning] Resolved variables received without matching request 21
+[2021-08-31 00:18:27.971] [sharedprocess] [warning] Resolved variables received without matching request 22
+[2021-08-31 00:18:28.076] [sharedprocess] [warning] Resolved variables received without matching request 23
+[2021-08-31 00:18:28.084] [sharedprocess] [warning] Resolved variables received without matching request 24
+[2021-08-31 00:18:28.086] [sharedprocess] [warning] Resolved variables received without matching request 25
+[2021-08-31 00:18:29.928] [sharedprocess] [warning] Resolved variables received without matching request 26
+[2021-08-31 00:18:29.934] [sharedprocess] [warning] Resolved variables received without matching request 27
+[2021-08-31 00:18:29.943] [sharedprocess] [warning] Resolved variables received without matching request 28
+[2021-08-31 00:18:29.952] [sharedprocess] [warning] Resolved variables received without matching request 29
+[2021-08-31 00:18:29.957] [sharedprocess] [warning] Resolved variables received without matching request 30
+[2021-08-31 00:18:38.097] [sharedprocess] [warning] Resolved variables received without matching request 31
+[2021-08-31 00:18:38.116] [sharedprocess] [warning] Resolved variables received without matching request 32
+[2021-08-31 00:18:38.119] [sharedprocess] [warning] Resolved variables received without matching request 33
+[2021-08-31 00:18:38.123] [sharedprocess] [warning] Resolved variables received without matching request 34
+[2021-08-31 00:18:38.141] [sharedprocess] [warning] Resolved variables received without matching request 35
+[2021-08-31 00:18:39.359] [sharedprocess] [warning] Resolved variables received without matching request 36
+[2021-08-31 00:18:39.363] [sharedprocess] [warning] Resolved variables received without matching request 37
+[2021-08-31 00:18:39.372] [sharedprocess] [warning] Resolved variables received without matching request 38
+[2021-08-31 00:18:39.378] [sharedprocess] [warning] Resolved variables received without matching request 39
+[2021-08-31 00:18:39.389] [sharedprocess] [warning] Resolved variables received without matching request 40
+[2021-08-31 00:20:24.355] [sharedprocess] [warning] Resolved variables received without matching request 41
+[2021-08-31 00:20:24.356] [sharedprocess] [warning] Resolved variables received without matching request 42
+[2021-08-31 00:20:24.359] [sharedprocess] [warning] Resolved variables received without matching request 43
+[2021-08-31 00:20:24.360] [sharedprocess] [warning] Resolved variables received without matching request 44
+[2021-08-31 00:20:24.361] [sharedprocess] [warning] Resolved variables received without matching request 45
+[2021-09-01 18:19:09.750] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2021-09-01 20:15:08.558] [sharedprocess] [warning] Resolved variables received without matching request 101
+[2021-09-01 20:15:08.559] [sharedprocess] [warning] Resolved variables received without matching request 102
+[2021-09-01 20:15:08.560] [sharedprocess] [warning] Resolved variables received without matching request 103
+[2021-09-01 20:15:08.575] [sharedprocess] [warning] Resolved variables received without matching request 104
+[2021-09-01 20:15:08.602] [sharedprocess] [warning] Resolved variables received without matching request 105
+[2021-09-01 20:15:10.509] [sharedprocess] [warning] Resolved variables received without matching request 106
+[2021-09-01 20:15:10.515] [sharedprocess] [warning] Resolved variables received without matching request 107
+[2021-09-01 20:15:10.524] [sharedprocess] [warning] Resolved variables received without matching request 108
+[2021-09-01 20:15:10.533] [sharedprocess] [warning] Resolved variables received without matching request 109
+[2021-09-01 20:15:10.542] [sharedprocess] [warning] Resolved variables received without matching request 110

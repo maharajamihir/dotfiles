@@ -3,10 +3,10 @@
     "openedPathsList": {
         "entries": [
             {
-                "folderUri": "file:///home/maharajamihir/Projects/BoozeUp-API"
+                "folderUri": "file:///home/maharajamihir/Projects/BoozeUp"
             },
             {
-                "folderUri": "file:///home/maharajamihir/Projects/BoozeUp"
+                "folderUri": "file:///home/maharajamihir/Projects/BoozeUp-API"
             },
             {
                 "folderUri": "file:///home/maharajamihir/Projects"
@@ -19,6 +19,9 @@
             },
             {
                 "folderUri": "file:///home/maharajamihir/Uni/EraPraktikum/team121"
+            },
+            {
+                "fileUri": "file:///home/maharajamihir/Projects/BoozeUp/%2C"
             },
             {
                 "fileUri": "file:///home/maharajamihir/Projects/sports-recommender/react-app/src/App.js"
@@ -68,24 +71,24 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/maharajamihir/Projects/BoozeUp-API",
-                                        "external": "file:///home/maharajamihir/Projects/BoozeUp-API",
-                                        "path": "/home/maharajamihir/Projects/BoozeUp-API",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Projects/BoozeUp-API"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
+                                        "fsPath": "/home/maharajamihir/Projects/BoozeUp",
                                         "external": "file:///home/maharajamihir/Projects/BoozeUp",
                                         "path": "/home/maharajamihir/Projects/BoozeUp",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
                                     "label": "~/Projects/BoozeUp"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/maharajamihir/Projects/BoozeUp-API",
+                                        "path": "/home/maharajamihir/Projects/BoozeUp-API",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Projects/BoozeUp-API"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -138,6 +141,18 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/maharajamihir/Projects/BoozeUp/%2C",
+                                        "path": "/home/maharajamihir/Projects/BoozeUp/,",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Projects/BoozeUp/,"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/maharajamihir/Projects/sports-recommender/react-app/src/App.js",
                                         "path": "/home/maharajamihir/Projects/sports-recommender/react-app/src/App.js",
                                         "scheme": "file"
                                     },
@@ -981,8 +996,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1552,14 +1566,14 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/maharajamihir/Projects/BoozeUp-API",
-            "backupPath": "/home/maharajamihir/.config/Code - OSS/Backups/8558c3987b50fcd61c2a401ef4d7b83c",
+            "folder": "file:///home/maharajamihir/Projects/BoozeUp",
+            "backupPath": "/home/maharajamihir/.config/Code - OSS/Backups/ad2b57938ebb407942e8bee512d64a65",
             "uiState": {
                 "mode": 1,
                 "x": 685,
                 "y": 16,
                 "width": 679,
-                "height": 508
+                "height": 572
             }
         },
         "openedWindows": []
