@@ -72,8 +72,8 @@
 		"tooltip": false
 	},
 	"clock#3": {
-		"timezone": "Europe/Berlin",
-		"format": "{:%m-%d}",
+		"timezone": "Europe/Berlin"
+,		"format": "{:%d.%m.%y}",
 		"tooltip": false
 	},
 
