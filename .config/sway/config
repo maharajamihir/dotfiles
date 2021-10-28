@@ -13,7 +13,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:monospace 8
+	font pango:Sans 8
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -30,6 +30,10 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
+# Autostart
+exec --no-startup-id alacritty
+
+
 #brigntess and sound 
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
 bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
@@ -44,24 +48,27 @@ bindsym XF86Search exec bemenu-run
 
 ## Input configuration
 input "type:keyboard" {
-    xkb_layout de
-    xkb_variant "nodeadkeys"
+   	xkb_layout de
+   	xkb_variant "nodeadkeys"
+	xkb_options caps:escape
+	repeat_rate 30
         }
-
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+# remove default borders
+default_border none
 # start a terminal
 bindsym $mod+Return exec alacritty
-
 # kill focused window
 bindsym $mod+Shift+q kill
 
 # suspend
 bindsym $mod+Shift+Delete exec "systemctl suspend"
 
-# start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run
+# start wofi (a program launcher)
+set $menu wofi --show=drun --lines=1 --promt""
+bindsym $mod+d exec $menu
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -165,6 +172,8 @@ bindsym $mod+Shift+r restart
 bindsym $mod+b exec firefox
 # open code
 bindsym $mod+n exec code
+# open spotify
+bindsym $mod+m exec spotify
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
@@ -205,3 +214,5 @@ input type:touchpad {
     tap enabled
 #    natural_scroll enabled
 }
+
+
