@@ -30,8 +30,11 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
+exec swayidle timeout 600 "swaylock 50"   timeout 630 'swaymsg "output * dpms off"'   resume 'swaymsg "output * dpms on"'   before-sleep "swaylock 50" &
+
 # Autostart
 exec --no-startup-id alacritty
+exec --no-startup-id swaylock
 
 
 #brigntess and sound 
@@ -65,7 +68,7 @@ bindsym $mod+Shift+q kill
 
 # suspend
 bindsym $mod+Shift+Delete exec "systemctl suspend"
-
+bindsym $mod+Delete exec swaylock
 # start wofi (a program launcher)
 set $menu wofi --show=drun --lines=1 --promt""
 bindsym $mod+d exec $menu
@@ -171,9 +174,11 @@ bindsym $mod+Shift+r restart
 # open firefox
 bindsym $mod+b exec firefox
 # open code
-bindsym $mod+n exec code
+bindsym $mod+n exec alacritty -e nmtui
 # open spotify
 bindsym $mod+m exec spotify
+# take a screenshot (will be in ~/Screenshot/ folder)
+bindsym $mod+Print exec grim -g "$(slurp)" ~/Screenshots/screenshot.png
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
@@ -209,7 +214,7 @@ bindsym $mod+r mode "resize"
 bar {
     swaybar_command waybar
 }
-output "*" bg ~/Downloads/1228050.jpg fill
+output "*" bg ~/.config/wallpaper/wallpaper.jpg fill
 input type:touchpad {
     tap enabled
 #    natural_scroll enabled
