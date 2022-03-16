@@ -4,6 +4,20 @@ My archconfig.
 
 ## Usage 
 
+Install yay as a aur package helper
+
+``` shell
+pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+```
+
+Clone this repo to root folder
 ```shell
 git clone git@github.com:maharajamihir/dotfiles.git
 ```
+
+Install all needed packages
+
+``` shell
+bash ~/recover_packages.sh
+```
+
