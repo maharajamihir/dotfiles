@@ -8,3 +8,6 @@
 !.config/waybar
 !.config/swaylock
 !.config/sway
+!.config/screenshare.sh
+!.config/zathura
+!.config/htop

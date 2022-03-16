@@ -1,0 +1,4 @@
+set selection-clipboard clipboard
+# set scroll-wrap true
+set statusbar-home-tilde true
+# set smooth-scroll true
