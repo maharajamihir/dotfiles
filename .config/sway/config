@@ -175,7 +175,7 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # open firefox
-bindsym $mod+b exec "MOZ_ENABLE_WAYLAND=1 firefox" 
+bindsym $mod+b exec "MOZ_ENABLE_WAYLAND=1 firefox"
 # open code
 bindsym $mod+n exec alacritty -e nmtui
 # open spotify
