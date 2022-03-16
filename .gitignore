@@ -1,0 +1,10 @@
+# Ignore all of config dir
+.config/*
+
+# keep follonging config files:
+
+!.config/alacritty
+!.config/wallpaper
+!.config/waybar
+!.config/swaylock
+!.config/sway
