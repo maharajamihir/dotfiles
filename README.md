@@ -20,4 +20,3 @@ Install all needed packages
 ``` shell
 bash ~/recover_packages.sh
 ```
-
